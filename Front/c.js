@@ -1,0 +1,1 @@
+[J,E,B,A,I,T,E,D].forEach(alert)
