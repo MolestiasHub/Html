@@ -1,0 +1,52 @@
+.container {
+  display: grid;
+  grid-template-columns: 10% 10% auto;
+  grid-template-rows: auto 1500px 10%;
+  background-image: url(back2.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  background-attachment: fixed;
+}
+body{
+	margin: 0;
+	padding: 0;
+	
+}
+
+.itemA{
+	grid-area: 1 / 1 / last-line / 3;
+	background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgb(2, 11, 18) 15%, rgba(2,0,36,0.4248074229691877) 56%, rgba(2,0,36,0) 100%);
+}
+.logo img{
+	max-height: 100%;
+	max-width: 100%;
+}
+
+.logo{
+	grid-area: 1/2/2/3;
+	object-fit: fill;
+
+}
+
+.itemB ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  
+}
+
+.itemB li a {
+  display: block;
+  width: 60px;
+  font-family: "Lobster";
+  margin: 30px;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+.itemB{
+	grid-area: 2 / 1 / last-line / 3;
+}
